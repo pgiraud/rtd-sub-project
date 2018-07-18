@@ -1,0 +1,5 @@
+site_name: rtd-sub-project
+docs_dir: doc
+theme: readthedocs
+pages:
+- Home: index.md
