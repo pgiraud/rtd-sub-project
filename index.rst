@@ -6,9 +6,7 @@
 Welcome to rtd-sub's documentation!
 ===================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+.. include:: _sidebar.rst.inc
 
 
 
