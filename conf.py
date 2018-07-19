@@ -171,4 +171,4 @@ texinfo_documents = [
 # -- Custom
 
 import gensidebar
-gensidebar.generate_sidebar(globals(), 'rtd-main')
+gensidebar.generate_sidebar(globals(), 'rtd-sub')
