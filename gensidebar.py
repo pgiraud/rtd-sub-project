@@ -51,19 +51,19 @@ def generate_sidebar(conf, conf_api):
         if project != conf_api:
             if do_gen:
                 args = desc, project, version
-                lines.append('    %s <https://rtd-main-project.readthedocs.io/projects/%s/en/%s/index.html>' % args)
+                lines.append('    %s <https://rtd-main-project.readthedocs.io/projects/%s/en/%s/index2.html>' % args)
         else:
-            lines.append('    %s <index>' % desc)
+            lines.append('    %s <index2>' % desc)
 
     #
     # Specify the sidebar contents here
     #
 
-    toctree('Robot Programming')
+    toctree('Main project')
     write('Getting Started', 'getting_started')
     endl()
 
-    toctree('Sub project section')
+    toctree('Sub project')
     write_api('rtd-sub-project', 'sub project')
     endl()
 
